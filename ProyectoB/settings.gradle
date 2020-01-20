@@ -1,0 +1,4 @@
+include ':app'
+rootProject.name='ProyectoB'
+include ':libreria'
+project(':libreria').projectDir = new File(settingsDir, '''../ProyectoA/libreria''')
